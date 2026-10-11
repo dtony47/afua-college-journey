@@ -1,25 +1,25 @@
 {
   "title": "Afua's College Journey",
   "intake": "September 2027",
-  "interests": "Art · Photography · Geography",
+  "interests": "Art \u00b7 Photography \u00b7 Geography",
   "updated": "2026-10-11",
   "colleges": [
     {
       "id": "college-1",
-      "name": "The Manchester College – City Campus",
+      "name": "The Manchester College \u2013 City Campus",
       "course": "Level 3 Photography / Art and Design",
       "route": "Level 3 diploma",
       "stage": "Preparing application",
       "priority": "1",
       "deadline": "",
       "deadlineTime": "",
-      "deadlineNote": "No fixed deadline – apply early",
+      "deadlineNote": "No fixed deadline \u2013 apply early",
       "visited": "Yes",
       "appStatus": "Preparing application",
       "entry": "Four GCSEs 4+ incl English and/or maths; photography portfolio.",
       "next": "Register on apply.tmc.ac.uk once portal is back (from 12 Oct); bring ticket to 14 Nov open day",
       "url": "https://www.tmc.ac.uk/courses/photography/",
-      "applyVia": "apply.tmc.ac.uk (portal down 10–11 Oct)"
+      "applyVia": "apply.tmc.ac.uk (portal down 10\u201311 Oct)"
     },
     {
       "id": "college-2",
@@ -33,7 +33,7 @@
       "deadlineNote": "Not verified",
       "visited": "",
       "appStatus": "Not started",
-      "entry": "Four GCSEs 4–9 incl English; no Geography in this route.",
+      "entry": "Four GCSEs 4\u20139 incl English; no Geography in this route.",
       "next": "Complete student details or choose 28 Nov if academic visit 17 Oct",
       "url": "https://www.accesscreative.ac.uk/events/october-17th-open-day/"
     },
@@ -94,10 +94,10 @@
       "priority": "Conditional",
       "deadline": "2027-01-08",
       "deadlineTime": "",
-      "deadlineNote": "Confirmed · needs school reference",
+      "deadlineNote": "Confirmed \u00b7 needs school reference",
       "visited": "",
       "appStatus": "Not started",
-      "entry": "Six GCSEs 9–4 incl two English/maths/science; two 6+; subject criteria and admissions priority apply",
+      "entry": "Six GCSEs 9\u20134 incl two English/maths/science; two 6+; subject criteria and admissions priority apply",
       "next": "Check 2027 entry criteria; deadline 8 Jan 2027 incl. reference",
       "url": "https://www.loreto.ac.uk/apply-now"
     },
@@ -126,7 +126,7 @@
       "priority": "Conditional",
       "deadline": "2026-12-18",
       "deadlineTime": "09:00",
-      "deadlineNote": "Confirmed · CEDAR online form",
+      "deadlineNote": "Confirmed \u00b7 CEDAR online form",
       "visited": "10 Oct 2026",
       "appStatus": "Preparing application",
       "entry": "Full general 6 GCSE profile: at least two 6+, at least four 5+, plus subject rules. Geography EL 5/math 5.",
@@ -162,7 +162,7 @@
       "deadlineNote": "Not verified",
       "visited": "",
       "appStatus": "Not started",
-      "entry": "Research lists five GCSEs 4–9 with 3, 4, 4 across EL/Lit/maths; full profile needed",
+      "entry": "Research lists five GCSEs 4\u20139 with 3, 4, 4 across EL/Lit/maths; full profile needed",
       "next": "Consider only if interests broaden; verify subject rules",
       "url": "https://www.connell.ac.uk/courses"
     },
@@ -256,7 +256,8 @@
       "kind": "Open day",
       "status": "Attended",
       "collegeId": "college-8",
-      "url": "https://www.xaverian.ac.uk/events/open-day/"
+      "url": "https://www.xaverian.ac.uk/events/open-day/",
+      "verified": true
     },
     {
       "id": "tmc-portal",
@@ -272,31 +273,33 @@
     {
       "id": "oct17",
       "date": "2026-10-17",
-      "time": "10:00",
-      "title": "Open day – choose one: Access Creative, Aquinas or Ashton",
+      "time": "10:00\u201313:00 (Aquinas & Ashton); Access register online",
+      "title": "Open day \u2013 choose one: Access Creative, Aquinas or Ashton",
       "kind": "Open day",
-      "status": "Not booked – decision needed",
+      "status": "Not booked \u2013 decision needed",
       "collegeId": "",
       "url": "https://www.aquinas.ac.uk/apply-now/open-events/",
       "links": [
         {
-          "label": "Access",
+          "label": "Access (register)",
           "url": "https://www.accesscreative.ac.uk/events/october-17th-open-day/"
         },
         {
-          "label": "Aquinas",
+          "label": "Aquinas 10am\u20131pm",
           "url": "https://www.aquinas.ac.uk/apply-now/open-events/"
         },
         {
-          "label": "Ashton",
+          "label": "Ashton 10am\u20131pm (ticket)",
           "url": "https://www.asfc.ac.uk/home/study-with-us/events/year-11-open-day-2/"
         }
-      ]
+      ],
+      "verified": true,
+      "notes": "Checked 11 Oct 2026: all three confirmed for Sat 17 Oct. Aquinas & Ashton 10am\u20131pm; Ashton is ticket-only (1 per student). Access Creative open day confirmed \u2013 register online (Manchester: Games/Media Hulme St, Music Oxford St)."
     },
     {
       "id": "visit-manchester",
       "date": "2026-11-14",
-      "time": "10:00–13:00",
+      "time": "10:00\u201313:00",
       "title": "The Manchester College City Campus open day",
       "kind": "Open day",
       "status": "Booked",
@@ -307,12 +310,14 @@
       "id": "access-28nov",
       "date": "2026-11-28",
       "time": "",
-      "title": "Access Creative open day (alternative – to confirm)",
+      "title": "Access Creative open day",
       "kind": "Open day",
-      "status": "Unconfirmed",
-      "tentative": true,
+      "status": "Confirmed \u2013 not booked",
+      "tentative": false,
       "collegeId": "college-2",
-      "url": "https://www.accesscreative.ac.uk/"
+      "url": "https://www.accesscreative.ac.uk/events/open-day-28th-november-2026/",
+      "verified": true,
+      "notes": "Checked 11 Oct 2026: open day confirmed for Sat 28 Nov 2026 for Sept 2027 courses. Register online."
     },
     {
       "id": "dl-aquinas",
@@ -330,7 +335,7 @@
       "time": "",
       "title": "School paper-form deadline (provisional)",
       "kind": "Deadline",
-      "status": "Provisional – ask school",
+      "status": "Provisional \u2013 ask school",
       "tentative": true,
       "collegeId": "",
       "url": ""
@@ -370,12 +375,12 @@
   "tasks": [
     {
       "id": "statements",
-      "title": "Personalise the drafted personal statements (Xaverian ×3, TMC ×1)",
+      "title": "Personalise the drafted personal statements (Xaverian \u00d73, TMC \u00d71)",
       "owner": "Afua",
       "due": "",
       "status": "In progress",
       "priority": "High",
-      "notes": "Rewrite in her own words and fill every [bracket] with real examples. ~250–300 words each for Xaverian."
+      "notes": "Rewrite in her own words and fill every [bracket] with real examples. ~250\u2013300 words each for Xaverian."
     },
     {
       "id": "art-gcse",
@@ -411,7 +416,7 @@
       "due": "2026-10-09",
       "status": "To do",
       "priority": "High",
-      "notes": "Access, Aquinas and Ashton all hold open days on Sat 17 Oct. Pick one and book this week. Access may have another on 28 Nov (to confirm)."
+      "notes": "OVERDUE (was due 9 Oct). All three confirmed 11 Oct 2026: Access Creative (register online), Aquinas 10am\u20131pm, Ashton 10am\u20131pm ticket-only. Pick one and book by Mon 12 Oct. Access also has 28 Nov as backup."
     },
     {
       "id": "email",
@@ -438,7 +443,7 @@
       "due": "",
       "status": "In progress",
       "priority": "Normal",
-      "notes": "Overall expectation shared; still need the school’s prediction for each subject (Xaverian asks per subject). Keep grades off this page."
+      "notes": "Overall expectation shared; still need the school\u2019s prediction for each subject (Xaverian asks per subject). Keep grades off this page."
     },
     {
       "id": "portfolio",
@@ -472,9 +477,9 @@
       "title": "Set our weekly 15-minute check-in",
       "owner": "Together",
       "due": "",
-      "status": "To do",
+      "status": "Done",
       "priority": "Normal",
-      "notes": "Choose a day and time in Our plan. Add the check-in to both calendars, then pick the next three actions together."
+      "notes": "Sundays 18:00 family check-in; weekly Grok Bot briefing at 17:04 ahead of it."
     },
     {
       "id": "ticket",
@@ -523,6 +528,11 @@
     }
   ],
   "activity": [
+    {
+      "date": "2026-10-11",
+      "who": "Grok Bot",
+      "text": "Weekly briefing: confirmed Sat 17 Oct open days (Access Creative, Aquinas 10am\u20131pm, Ashton 10am\u20131pm ticketed) and Access Creative\u2019s Sat 28 Nov open day; updated tracker."
+    },
     {
       "date": "2026-10-11",
       "who": "Grok Bot",
