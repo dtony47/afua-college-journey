@@ -1,0 +1,552 @@
+{
+  "title": "Afua's College Journey",
+  "intake": "September 2027",
+  "interests": "Art · Photography · Geography",
+  "updated": "2026-10-11",
+  "colleges": [
+    {
+      "id": "college-1",
+      "name": "The Manchester College – City Campus",
+      "course": "Level 3 Photography / Art and Design",
+      "route": "Level 3 diploma",
+      "stage": "Preparing application",
+      "priority": "1",
+      "deadline": "",
+      "deadlineTime": "",
+      "deadlineNote": "No fixed deadline – apply early",
+      "visited": "Yes",
+      "appStatus": "Preparing application",
+      "entry": "Four GCSEs 4+ incl English and/or maths; photography portfolio.",
+      "next": "Register on apply.tmc.ac.uk once portal is back (from 12 Oct); bring ticket to 14 Nov open day",
+      "url": "https://www.tmc.ac.uk/courses/photography/",
+      "applyVia": "apply.tmc.ac.uk (portal down 10–11 Oct)"
+    },
+    {
+      "id": "college-2",
+      "name": "Access Creative Manchester",
+      "course": "L3 Film/Videography/Photography",
+      "route": "Level 3 diploma",
+      "stage": "Shortlisted",
+      "priority": "2",
+      "deadline": "",
+      "deadlineTime": "",
+      "deadlineNote": "Not verified",
+      "visited": "",
+      "appStatus": "Not started",
+      "entry": "Four GCSEs 4–9 incl English; no Geography in this route.",
+      "next": "Complete student details or choose 28 Nov if academic visit 17 Oct",
+      "url": "https://www.accesscreative.ac.uk/events/october-17th-open-day/"
+    },
+    {
+      "id": "college-3",
+      "name": "Oldham Sixth Form",
+      "course": "A levels: Art/Photography/Geography; confirm combination",
+      "route": "A levels",
+      "stage": "Shortlisted",
+      "priority": "3",
+      "deadline": "",
+      "deadlineTime": "",
+      "deadlineNote": "Not verified",
+      "visited": "",
+      "appStatus": "Not started",
+      "entry": "Five GCSEs 4+ incl English and maths for A levels; course-specific rules; 4 in continued GCSE subjects; verify 2027",
+      "next": "Retain if Geography matters; confirm 2027 criteria and next suitable visit",
+      "url": "https://www.osfc.ac.uk/Apply/Entry-Requirements"
+    },
+    {
+      "id": "college-4",
+      "name": "Aquinas",
+      "course": "Art/Photography A levels; creative alternatives",
+      "route": "A levels",
+      "stage": "Shortlisted",
+      "priority": "4",
+      "deadline": "2026-11-30",
+      "deadlineTime": "",
+      "deadlineNote": "Confirmed",
+      "visited": "",
+      "appStatus": "Not started",
+      "entry": "Six GCSEs 4 incl English Language and maths. Art 4 required; Geography needs 5 in EL/maths/science. Table labelled 2026.",
+      "next": "Confirm 2027 criteria and decide between 17 Oct alternatives",
+      "url": "https://www.aquinas.ac.uk/apply-now/"
+    },
+    {
+      "id": "college-5",
+      "name": "Stockport College",
+      "course": "L3 Creative Practice / Creative Media",
+      "route": "Level 3 diploma",
+      "stage": "Shortlisted",
+      "priority": "5",
+      "deadline": "",
+      "deadlineTime": "",
+      "deadlineNote": "Not verified",
+      "visited": "",
+      "appStatus": "Not started",
+      "entry": "Research reports four GCSEs 4+ incl English and/or maths; exact 2027 course criteria to confirm",
+      "next": "Creative reserve; check next Saturday and programme",
+      "url": "https://stockport.tscg.ac.uk/our-courses/"
+    },
+    {
+      "id": "college-6",
+      "name": "Loreto",
+      "course": "Art/Photography/Geography academic route",
+      "route": "A levels",
+      "stage": "Exploring",
+      "priority": "Conditional",
+      "deadline": "2027-01-08",
+      "deadlineTime": "",
+      "deadlineNote": "Confirmed · needs school reference",
+      "visited": "",
+      "appStatus": "Not started",
+      "entry": "Six GCSEs 9–4 incl two English/maths/science; two 6+; subject criteria and admissions priority apply",
+      "next": "Check 2027 entry criteria; deadline 8 Jan 2027 incl. reference",
+      "url": "https://www.loreto.ac.uk/apply-now"
+    },
+    {
+      "id": "college-7",
+      "name": "Ashton Sixth Form",
+      "course": "Creative A levels and Geography",
+      "route": "A levels",
+      "stage": "Exploring",
+      "priority": "Conditional",
+      "deadline": "",
+      "deadlineTime": "",
+      "deadlineNote": "Not verified",
+      "visited": "",
+      "appStatus": "Not started",
+      "entry": "2027 A-level guide: two 6s, four 4s, EL 4, maths 4; continuing subjects normally 5. Lower diploma threshold is NOT creative A-level eligibility.",
+      "next": "Confirm actual course combination and wider grades before booking",
+      "url": "https://www.asfc.ac.uk/home/study-with-us/entry-requirements/"
+    },
+    {
+      "id": "college-8",
+      "name": "Xaverian",
+      "course": "Art/Photography/Geography",
+      "route": "A levels",
+      "stage": "Preparing application",
+      "priority": "Conditional",
+      "deadline": "2026-12-18",
+      "deadlineTime": "09:00",
+      "deadlineNote": "Confirmed · CEDAR online form",
+      "visited": "10 Oct 2026",
+      "appStatus": "Preparing application",
+      "entry": "Full general 6 GCSE profile: at least two 6+, at least four 5+, plus subject rules. Geography EL 5/math 5.",
+      "next": "Afua personalises statements; fill in CEDAR online form before 18 Dec 09:00",
+      "url": "https://www.xaverian.ac.uk/how-to-apply/",
+      "applyVia": "CEDAR online form (cedar.xaverian.ac.uk/apply)"
+    },
+    {
+      "id": "college-9",
+      "name": "Trafford College",
+      "course": "Relevant creative vocational course/campus not yet matched",
+      "route": "To investigate",
+      "stage": "Exploring",
+      "priority": "Lower priority",
+      "deadline": "",
+      "deadlineTime": "",
+      "deadlineNote": "Not verified",
+      "visited": "",
+      "appStatus": "Not started",
+      "entry": "Course/campus not yet matched; A levels need 5 in English Language and maths.",
+      "next": "Verify relevant course/campus before visiting",
+      "url": "https://trafford.tscg.ac.uk/events/16-18-open-event-2/"
+    },
+    {
+      "id": "college-10",
+      "name": "Connell Co-op",
+      "course": "Geography/Media/Film, not direct Art/Photography fit",
+      "route": "To investigate",
+      "stage": "Exploring",
+      "priority": "Lower priority",
+      "deadline": "",
+      "deadlineTime": "",
+      "deadlineNote": "Not verified",
+      "visited": "",
+      "appStatus": "Not started",
+      "entry": "Research lists five GCSEs 4–9 with 3, 4, 4 across EL/Lit/maths; full profile needed",
+      "next": "Consider only if interests broaden; verify subject rules",
+      "url": "https://www.connell.ac.uk/courses"
+    },
+    {
+      "id": "college-11",
+      "name": "Parrs Wood",
+      "course": "Art and Geography A levels",
+      "route": "A levels",
+      "stage": "Exploring",
+      "priority": "Lower priority",
+      "deadline": "",
+      "deadlineTime": "",
+      "deadlineNote": "Not verified",
+      "visited": "",
+      "appStatus": "Not started",
+      "entry": "Research: five 4+ incl EL/maths general; mostly 6s for A levels; old subject document, 2027 needs checking",
+      "next": "Confirm 2027 subject requirements and future visits",
+      "url": "https://www.pwsfc.org.uk/curriculum/entry-requirements"
+    },
+    {
+      "id": "college-12",
+      "name": "William Hulme Grammar Sixth Form",
+      "course": "Art/Photography/Geography; blended route conditional",
+      "route": "A levels",
+      "stage": "Exploring",
+      "priority": "Lower priority",
+      "deadline": "",
+      "deadlineTime": "",
+      "deadlineNote": "Not verified",
+      "visited": "",
+      "appStatus": "Not started",
+      "entry": "A-level five 5+ incl English/maths; creative subjects 6. BTEC subjects unverified; do not assume creative alternative",
+      "next": "Only revisit once full grades and actual subjects checked",
+      "url": "https://www.whgs-academy.org/sixth-form/entry-requirements"
+    },
+    {
+      "id": "college-13",
+      "name": "Marple Sixth Form",
+      "course": "Art/Geography A levels",
+      "route": "A levels",
+      "stage": "Exploring",
+      "priority": "Lower priority",
+      "deadline": "",
+      "deadlineTime": "",
+      "deadlineNote": "Not verified",
+      "visited": "",
+      "appStatus": "Not started",
+      "entry": "Five GCSEs 5+ incl English Language and maths; recheck for 2027.",
+      "next": "Revisit if grades/course preference justify travel",
+      "url": "https://marple.tscg.ac.uk/college-16-18/a-level-entry-requirements"
+    },
+    {
+      "id": "college-14",
+      "name": "Didsbury Sixth Form",
+      "course": "Art/Geography A levels",
+      "route": "A levels",
+      "stage": "Exploring",
+      "priority": "Lower priority",
+      "deadline": "",
+      "deadlineTime": "",
+      "deadlineNote": "Not verified",
+      "visited": "",
+      "appStatus": "Not started",
+      "entry": "Research 2026 criteria six 6s incl English/maths; Art/Geography 7; 2027 criteria unresolved",
+      "next": "Confirm 2027 entry criteria before considering",
+      "url": "https://www.didsburyhighschool.org.uk/sixth-form-admissions/"
+    },
+    {
+      "id": "college-15",
+      "name": "Cheadle Hulme Sixth Form",
+      "course": "Academic route; exact fit unresolved",
+      "route": "To investigate",
+      "stage": "Exploring",
+      "priority": "Unassessed eligibility",
+      "deadline": "",
+      "deadlineTime": "",
+      "deadlineNote": "Not verified",
+      "visited": "",
+      "appStatus": "Not started",
+      "entry": "Entry PDF not retrieved. Do NOT infer requirements from Didsbury or league-table results. Different from TSCG Cheadle College.",
+      "next": "Obtain actual criteria before ranking eligibility",
+      "url": "https://www.chhs.org.uk/sixth-form-admissions/"
+    }
+  ],
+  "events": [
+    {
+      "id": "visit-xaverian",
+      "date": "2026-10-10",
+      "time": "10:30",
+      "title": "Xaverian open day",
+      "kind": "Open day",
+      "status": "Attended",
+      "collegeId": "college-8",
+      "url": "https://www.xaverian.ac.uk/events/open-day/"
+    },
+    {
+      "id": "tmc-portal",
+      "date": "2026-10-12",
+      "time": "",
+      "title": "TMC apply portal back after maintenance (expected)",
+      "kind": "Reminder",
+      "status": "Expected",
+      "tentative": true,
+      "collegeId": "college-1",
+      "url": "https://www.tmc.ac.uk/application-process/"
+    },
+    {
+      "id": "oct17",
+      "date": "2026-10-17",
+      "time": "10:00",
+      "title": "Open day – choose one: Access Creative, Aquinas or Ashton",
+      "kind": "Open day",
+      "status": "Not booked – decision needed",
+      "collegeId": "",
+      "url": "https://www.aquinas.ac.uk/apply-now/open-events/",
+      "links": [
+        {
+          "label": "Access",
+          "url": "https://www.accesscreative.ac.uk/events/october-17th-open-day/"
+        },
+        {
+          "label": "Aquinas",
+          "url": "https://www.aquinas.ac.uk/apply-now/open-events/"
+        },
+        {
+          "label": "Ashton",
+          "url": "https://www.asfc.ac.uk/home/study-with-us/events/year-11-open-day-2/"
+        }
+      ]
+    },
+    {
+      "id": "visit-manchester",
+      "date": "2026-11-14",
+      "time": "10:00–13:00",
+      "title": "The Manchester College City Campus open day",
+      "kind": "Open day",
+      "status": "Booked",
+      "collegeId": "college-1",
+      "url": "https://www.tmc.ac.uk/events/november-school-leaver-open-event/"
+    },
+    {
+      "id": "access-28nov",
+      "date": "2026-11-28",
+      "time": "",
+      "title": "Access Creative open day (alternative – to confirm)",
+      "kind": "Open day",
+      "status": "Unconfirmed",
+      "tentative": true,
+      "collegeId": "college-2",
+      "url": "https://www.accesscreative.ac.uk/"
+    },
+    {
+      "id": "dl-aquinas",
+      "date": "2026-11-30",
+      "time": "",
+      "title": "Aquinas application deadline",
+      "kind": "Deadline",
+      "status": "Confirmed",
+      "collegeId": "college-4",
+      "url": "https://www.aquinas.ac.uk/apply-now/"
+    },
+    {
+      "id": "school-deadline",
+      "date": "2026-12-07",
+      "time": "",
+      "title": "School paper-form deadline (provisional)",
+      "kind": "Deadline",
+      "status": "Provisional – ask school",
+      "tentative": true,
+      "collegeId": "",
+      "url": ""
+    },
+    {
+      "id": "dl-xaverian",
+      "date": "2026-12-18",
+      "time": "09:00",
+      "title": "Xaverian application deadline",
+      "kind": "Deadline",
+      "status": "Confirmed",
+      "collegeId": "college-8",
+      "url": "https://www.xaverian.ac.uk/how-to-apply/"
+    },
+    {
+      "id": "dl-loreto",
+      "date": "2027-01-08",
+      "time": "",
+      "title": "Loreto application deadline (incl. reference)",
+      "kind": "Deadline",
+      "status": "Confirmed",
+      "collegeId": "college-6",
+      "url": "https://www.loreto.ac.uk/apply-now"
+    },
+    {
+      "id": "gcse-results",
+      "date": "2027-08-19",
+      "time": "",
+      "title": "GCSE results day (recheck with school)",
+      "kind": "Results day",
+      "status": "To recheck",
+      "tentative": true,
+      "collegeId": "",
+      "url": "https://www.aqa.org.uk/exams-administration/results-days"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "statements",
+      "title": "Personalise the drafted personal statements (Xaverian ×3, TMC ×1)",
+      "owner": "Afua",
+      "due": "",
+      "status": "In progress",
+      "priority": "High",
+      "notes": "Rewrite in her own words and fill every [bracket] with real examples. ~250–300 words each for Xaverian."
+    },
+    {
+      "id": "art-gcse",
+      "title": "Confirm whether Afua takes GCSE Art or Photography",
+      "owner": "Tony",
+      "due": "",
+      "status": "To do",
+      "priority": "High",
+      "notes": "Decides whether Xaverian asks for a portfolio."
+    },
+    {
+      "id": "xav-form",
+      "title": "Fill in the Xaverian CEDAR form together and review before submitting",
+      "owner": "Together",
+      "due": "2026-12-18",
+      "status": "To do",
+      "priority": "High",
+      "notes": "Cannot be edited after submission. School is asked for the reference automatically."
+    },
+    {
+      "id": "tmc-register",
+      "title": "Register Afua on apply.tmc.ac.uk and apply for Photography L3",
+      "owner": "Afua",
+      "due": "",
+      "status": "To do",
+      "priority": "High",
+      "notes": "Portal back from 12 Oct (expected). Afua chooses her own password. No fixed deadline, but courses fill up."
+    },
+    {
+      "id": "choose-oct17",
+      "title": "Choose one visit for 17 October",
+      "owner": "Together",
+      "due": "2026-10-09",
+      "status": "To do",
+      "priority": "High",
+      "notes": "Access, Aquinas and Ashton all hold open days on Sat 17 Oct. Pick one and book this week. Access may have another on 28 Nov (to confirm)."
+    },
+    {
+      "id": "email",
+      "title": "Get my student email ready",
+      "owner": "Afua",
+      "due": "",
+      "status": "Done",
+      "priority": "Normal",
+      "notes": "Done 11 Oct: Afua has a personal email she can keep after school. Keep it (and passwords) off this page."
+    },
+    {
+      "id": "access-book",
+      "title": "Complete the chosen visit booking",
+      "owner": "Tony",
+      "due": "2026-10-12",
+      "status": "To do",
+      "priority": "High",
+      "notes": "Suggested family target. If Access is selected, complete the form with Afua and check session time. Mark the event Booked only after receiving confirmation."
+    },
+    {
+      "id": "grades",
+      "title": "Get the complete predicted-grade profile",
+      "owner": "Together",
+      "due": "",
+      "status": "In progress",
+      "priority": "Normal",
+      "notes": "Overall expectation shared; still need the school’s prediction for each subject (Xaverian asks per subject). Keep grades off this page."
+    },
+    {
+      "id": "portfolio",
+      "title": "Start my creative portfolio",
+      "owner": "Afua",
+      "due": "",
+      "status": "To do",
+      "priority": "Normal",
+      "notes": "Choose photographs and artwork I am proud of, with short captions about my process. Ask each course what it expects. Keep original work in a separate private folder."
+    },
+    {
+      "id": "route",
+      "title": "Decide how much Geography matters to me",
+      "owner": "Afua",
+      "due": "",
+      "status": "To do",
+      "priority": "Normal",
+      "notes": "Compare a focused creative programme with separate Art, Photography and Geography subjects. Record what I like in Our plan."
+    },
+    {
+      "id": "tlevels",
+      "title": "Find a verified T Level that fits her interests",
+      "owner": "Tony",
+      "due": "",
+      "status": "To do",
+      "priority": "High",
+      "notes": "Current practical shortlist contains Level 3 diplomas, not verified T Levels. Use the official T Level finder; check September 2027 availability, creative content, placement arrangements and entry requirements."
+    },
+    {
+      "id": "review",
+      "title": "Set our weekly 15-minute check-in",
+      "owner": "Together",
+      "due": "",
+      "status": "To do",
+      "priority": "Normal",
+      "notes": "Choose a day and time in Our plan. Add the check-in to both calendars, then pick the next three actions together."
+    },
+    {
+      "id": "ticket",
+      "title": "Have our Manchester ticket ready",
+      "owner": "Tony",
+      "due": "2026-11-13",
+      "status": "To do",
+      "priority": "Normal",
+      "notes": "Suggested preparation target. Ticket is stored in the original local folder; bring it on a phone. One student plus two guests."
+    },
+    {
+      "id": "school",
+      "title": "Confirm the school deadline and referee",
+      "owner": "Tony",
+      "due": "",
+      "status": "To do",
+      "priority": "High",
+      "notes": "7 December is provisional. Ask about references, internal deadlines and how to submit applications. Do not wait until December for Aquinas."
+    },
+    {
+      "id": "apply",
+      "title": "Prepare applications for the chosen colleges",
+      "owner": "Together",
+      "due": "",
+      "status": "In progress",
+      "priority": "Normal",
+      "notes": "Afua owns her responses and applicant email; Tony checks deadlines and supporting information. Save the confirmation privately and update each college to Applied only after submission."
+    },
+    {
+      "id": "apprenticeships",
+      "title": "Check suitable September 2027 apprenticeships",
+      "owner": "Tony",
+      "due": "",
+      "status": "To do",
+      "priority": "Normal",
+      "notes": "Keep this alongside college options. Investigate Content Creator, Multi-channel Marketer and Geospatial/Surveying roles. Check minimum age, duties, start date and eligibility. No suitable vacancy or application is confirmed."
+    },
+    {
+      "id": "mocks",
+      "title": "Review choices after mock results",
+      "owner": "Together",
+      "due": "",
+      "status": "To do",
+      "priority": "Normal",
+      "notes": "Update the plan after mocks, but make initial applications before their deadlines."
+    }
+  ],
+  "activity": [
+    {
+      "date": "2026-10-11",
+      "who": "Grok Bot",
+      "text": "Drafted personal statements for Afua to personalise: Xaverian (3 questions) and The Manchester College \"why this course\"."
+    },
+    {
+      "date": "2026-10-11",
+      "who": "Grok Bot",
+      "text": "Researched the Xaverian (CEDAR online form, closes 18 Dec 09:00) and The Manchester College (apply.tmc.ac.uk, no fixed deadline) application processes."
+    },
+    {
+      "date": "2026-10-11",
+      "who": "Grok Bot",
+      "text": "Set up a weekly Sunday 17:04 briefing: upcoming deadlines, open days, overdue tasks and top three actions."
+    },
+    {
+      "date": "2026-10-11",
+      "who": "Grok Bot",
+      "text": "Read the family board: 15 colleges, 13 tasks, 8 events."
+    },
+    {
+      "date": "2026-10-10",
+      "who": "Tony & Afua",
+      "text": "Visited the Xaverian open day."
+    }
+  ]
+}

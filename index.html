@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="googlebot" content="noindex,nofollow">
+<meta name="referrer" content="no-referrer">
+<title>Afua's College Journey</title>
+<style>
+:root{--bg:#fbf8f4;--card:#fff;--ink:#23212b;--muted:#6d6878;--line:#ece6dd;--accent:#7b5cff;--accent2:#ff8a5c;--ok:#1f9d6b;--warn:#d98a00;--bad:#d64545;--chip:#f3effa;--r:16px}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink)}
+a{color:var(--accent)}
+header{background:linear-gradient(135deg,#7b5cff,#ff8a5c);color:#fff;padding:28px 18px 64px}
+header h1{margin:0;font-size:1.7rem;letter-spacing:-.01em}
+header p{margin:4px 0 0;opacity:.92;font-size:.95rem}
+main{max-width:1100px;margin:-44px auto 40px;padding:0 14px}
+section{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:18px;margin-bottom:16px;box-shadow:0 2px 10px rgba(40,20,80,.04)}
+h2{margin:0 0 12px;font-size:1.15rem;display:flex;align-items:center;gap:8px}
+.nav{display:flex;gap:6px;overflow-x:auto;padding:0 0 12px;margin:0 0 4px;scrollbar-width:none}
+.nav a{flex:none;background:#fff;border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:.85rem;text-decoration:none;color:var(--ink)}
+.next{display:grid;gap:10px}
+.nx{display:flex;gap:12px;align-items:center;border-radius:12px;padding:12px;background:var(--chip)}
+.cd{flex:none;width:68px;text-align:center;border-radius:10px;background:#fff;padding:6px 0;border:1px solid var(--line)}
+.cd b{display:block;font-size:1.5rem;line-height:1.1;color:var(--accent)}
+.cd small{font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.nx .t{font-weight:600}
+.nx .m{color:var(--muted);font-size:.85rem}
+.chip{display:inline-block;font-size:.75rem;padding:2px 8px;border-radius:999px;background:var(--chip);color:#4b3aa8;white-space:nowrap}
+.chip.ok{background:#e3f6ee;color:var(--ok)}.chip.warn{background:#fff3dc;color:#9a6300}.chip.bad{background:#fde7e7;color:var(--bad)}.chip.grey{background:#f0eeec;color:var(--muted)}
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:12px}
+.stat{border:1px solid var(--line);border-radius:12px;padding:10px;text-align:center}
+.stat b{display:block;font-size:1.3rem}.stat span{font-size:.8rem;color:var(--muted)}
+.filters{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.filters button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 11px;font:inherit;font-size:.82rem;cursor:pointer}
+.filters button.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* college cards (mobile) -> table (desktop) */
+.cards{display:grid;gap:10px}
+.cc{border:1px solid var(--line);border-radius:12px;padding:12px}
+.cc.hot{border-color:#cbbdff;background:#faf8ff}
+.cc h3{margin:0 0 2px;font-size:1rem}
+.cc .course{color:var(--muted);font-size:.88rem;margin-bottom:8px}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:3px 10px;font-size:.85rem}
+.kv dt{color:var(--muted)}.kv dd{margin:0}
+.cc .nexttxt{font-size:.83rem;margin-top:8px;padding-top:8px;border-top:1px dashed var(--line)}
+table{display:none;width:100%;border-collapse:collapse;font-size:.86rem}
+th{text-align:left;font-weight:600;color:var(--muted);font-size:.75rem;text-transform:uppercase;letter-spacing:.04em;padding:8px;border-bottom:2px solid var(--line)}
+td{padding:9px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+tr.hot td{background:#faf8ff}
+td .sub{color:var(--muted);font-size:.8rem}
+/* timeline */
+.tl{list-style:none;margin:0;padding:0 0 0 18px;border-left:3px solid var(--line)}
+.tl li{position:relative;padding:0 0 16px 12px}
+.tl li:before{content:"";position:absolute;left:-27px;top:5px;width:13px;height:13px;border-radius:50%;background:#fff;border:3px solid var(--accent)}
+.tl li.dl:before{border-color:var(--accent2)}
+.tl li.past{opacity:.55}.tl li.past:before{background:var(--line);border-color:#bbb}
+.tl li.today:before{background:var(--accent)}
+.tl .d{font-size:.8rem;color:var(--muted);font-weight:600}
+.tl .t{font-weight:600}
+.tl .links a{margin-right:8px;font-size:.85rem}
+/* tasks */
+.tasks{display:grid;gap:8px}
+.tk{display:grid;grid-template-columns:22px 1fr;gap:10px;border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.tk .ic{width:20px;height:20px;border-radius:6px;border:2px solid #cfc7dc;margin-top:2px}
+.tk.done .ic{background:var(--ok);border-color:var(--ok)}
+.tk.done .ic:after{content:"✓";color:#fff;font-size:.8rem;display:block;text-align:center;line-height:16px}
+.tk.prog .ic{border-color:var(--warn);background:linear-gradient(90deg,var(--warn) 50%,#fff 50%)}
+.tk.done .tt{text-decoration:line-through;color:var(--muted)}
+.tk .tt{font-weight:600}
+.tk .meta{display:flex;gap:6px;flex-wrap:wrap;margin:4px 0}
+.tk .n{font-size:.83rem;color:var(--muted)}
+/* activity */
+.log{list-style:none;margin:0;padding:0}
+.log li{display:grid;grid-template-columns:auto 1fr;gap:10px;padding:10px 0;border-bottom:1px solid var(--line)}
+.log li:last-child{border:0}
+.log .d{font-size:.78rem;color:var(--muted);white-space:nowrap;padding-top:2px;min-width:62px}
+.log .who{font-size:.75rem;color:var(--accent);font-weight:600}
+footer{text-align:center;color:var(--muted);font-size:.8rem;padding:10px 16px 30px}
+@media(min-width:760px){
+  header{padding:36px 28px 72px}header h1{font-size:2.1rem}
+  .next{grid-template-columns:repeat(3,1fr)}
+  .stats{grid-template-columns:repeat(4,1fr)}
+  .cards{display:none}table{display:table}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .grid2 section{margin-bottom:16px}
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Afua's College Journey 🎨📷🌍</h1>
+  <p id="sub"></p>
+</header>
+<main>
+  <nav class="nav">
+    <a href="#next">Next up</a><a href="#colleges">Colleges</a><a href="#dates">Key dates</a><a href="#tasks">Tasks</a><a href="#log">Activity log</a>
+  </nav>
+  <section id="next"><h2>⏰ Next up</h2><div class="next" id="nextList"></div><div class="stats" id="stats"></div></section>
+  <section id="colleges"><h2>🏫 Colleges</h2>
+    <div class="filters" id="cfilters"></div>
+    <div class="cards" id="ccards"></div>
+    <table id="ctable"><thead><tr><th>College</th><th>Route</th><th>Stage</th><th>Priority</th><th>Deadline</th><th>Visited</th><th>Application</th><th>Link</th></tr></thead><tbody></tbody></table>
+  </section>
+  <div class="grid2">
+    <section id="dates"><h2>🗓️ Key dates</h2><ul class="tl" id="timeline"></ul></section>
+    <div>
+      <section id="tasks"><h2>✅ Tasks</h2><div class="filters" id="tfilters"></div><div class="tasks" id="taskList"></div></section>
+    </div>
+  </div>
+  <section id="log"><h2>📝 Activity log</h2><ul class="log" id="logList"></ul></section>
+</main>
+<footer id="foot"></footer>
+<script>
+const EMBEDDED = /*DATA*/{"title": "Afua's College Journey", "intake": "September 2027", "interests": "Art · Photography · Geography", "updated": "2026-10-11", "colleges": [{"id": "college-1", "name": "The Manchester College – City Campus", "course": "Level 3 Photography / Art and Design", "route": "Level 3 diploma", "stage": "Preparing application", "priority": "1", "deadline": "", "deadlineTime": "", "deadlineNote": "No fixed deadline – apply early", "visited": "Yes", "appStatus": "Preparing application", "entry": "Four GCSEs 4+ incl English and/or maths; photography portfolio.", "next": "Register on apply.tmc.ac.uk once portal is back (from 12 Oct); bring ticket to 14 Nov open day", "url": "https://www.tmc.ac.uk/courses/photography/", "applyVia": "apply.tmc.ac.uk (portal down 10–11 Oct)"}, {"id": "college-2", "name": "Access Creative Manchester", "course": "L3 Film/Videography/Photography", "route": "Level 3 diploma", "stage": "Shortlisted", "priority": "2", "deadline": "", "deadlineTime": "", "deadlineNote": "Not verified", "visited": "", "appStatus": "Not started", "entry": "Four GCSEs 4–9 incl English; no Geography in this route.", "next": "Complete student details or choose 28 Nov if academic visit 17 Oct", "url": "https://www.accesscreative.ac.uk/events/october-17th-open-day/"}, {"id": "college-3", "name": "Oldham Sixth Form", "course": "A levels: Art/Photography/Geography; confirm combination", "route": "A levels", "stage": "Shortlisted", "priority": "3", "deadline": "", "deadlineTime": "", "deadlineNote": "Not verified", "visited": "", "appStatus": "Not started", "entry": "Five GCSEs 4+ incl English and maths for A levels; course-specific rules; 4 in continued GCSE subjects; verify 2027", "next": "Retain if Geography matters; confirm 2027 criteria and next suitable visit", "url": "https://www.osfc.ac.uk/Apply/Entry-Requirements"}, {"id": "college-4", "name": "Aquinas", "course": "Art/Photography A levels; creative alternatives", "route": "A levels", "stage": "Shortlisted", "priority": "4", "deadline": "2026-11-30", "deadlineTime": "", "deadlineNote": "Confirmed", "visited": "", "appStatus": "Not started", "entry": "Six GCSEs 4 incl English Language and maths. Art 4 required; Geography needs 5 in EL/maths/science. Table labelled 2026.", "next": "Confirm 2027 criteria and decide between 17 Oct alternatives", "url": "https://www.aquinas.ac.uk/apply-now/"}, {"id": "college-5", "name": "Stockport College", "course": "L3 Creative Practice / Creative Media", "route": "Level 3 diploma", "stage": "Shortlisted", "priority": "5", "deadline": "", "deadlineTime": "", "deadlineNote": "Not verified", "visited": "", "appStatus": "Not started", "entry": "Research reports four GCSEs 4+ incl English and/or maths; exact 2027 course criteria to confirm", "next": "Creative reserve; check next Saturday and programme", "url": "https://stockport.tscg.ac.uk/our-courses/"}, {"id": "college-6", "name": "Loreto", "course": "Art/Photography/Geography academic route", "route": "A levels", "stage": "Exploring", "priority": "Conditional", "deadline": "2027-01-08", "deadlineTime": "", "deadlineNote": "Confirmed · needs school reference", "visited": "", "appStatus": "Not started", "entry": "Six GCSEs 9–4 incl two English/maths/science; two 6+; subject criteria and admissions priority apply", "next": "Check 2027 entry criteria; deadline 8 Jan 2027 incl. reference", "url": "https://www.loreto.ac.uk/apply-now"}, {"id": "college-7", "name": "Ashton Sixth Form", "course": "Creative A levels and Geography", "route": "A levels", "stage": "Exploring", "priority": "Conditional", "deadline": "", "deadlineTime": "", "deadlineNote": "Not verified", "visited": "", "appStatus": "Not started", "entry": "2027 A-level guide: two 6s, four 4s, EL 4, maths 4; continuing subjects normally 5. Lower diploma threshold is NOT creative A-level eligibility.", "next": "Confirm actual course combination and wider grades before booking", "url": "https://www.asfc.ac.uk/home/study-with-us/entry-requirements/"}, {"id": "college-8", "name": "Xaverian", "course": "Art/Photography/Geography", "route": "A levels", "stage": "Preparing application", "priority": "Conditional", "deadline": "2026-12-18", "deadlineTime": "09:00", "deadlineNote": "Confirmed · CEDAR online form", "visited": "10 Oct 2026", "appStatus": "Preparing application", "entry": "Full general 6 GCSE profile: at least two 6+, at least four 5+, plus subject rules. Geography EL 5/math 5.", "next": "Afua personalises statements; fill in CEDAR online form before 18 Dec 09:00", "url": "https://www.xaverian.ac.uk/how-to-apply/", "applyVia": "CEDAR online form (cedar.xaverian.ac.uk/apply)"}, {"id": "college-9", "name": "Trafford College", "course": "Relevant creative vocational course/campus not yet matched", "route": "To investigate", "stage": "Exploring", "priority": "Lower priority", "deadline": "", "deadlineTime": "", "deadlineNote": "Not verified", "visited": "", "appStatus": "Not started", "entry": "Course/campus not yet matched; A levels need 5 in English Language and maths.", "next": "Verify relevant course/campus before visiting", "url": "https://trafford.tscg.ac.uk/events/16-18-open-event-2/"}, {"id": "college-10", "name": "Connell Co-op", "course": "Geography/Media/Film, not direct Art/Photography fit", "route": "To investigate", "stage": "Exploring", "priority": "Lower priority", "deadline": "", "deadlineTime": "", "deadlineNote": "Not verified", "visited": "", "appStatus": "Not started", "entry": "Research lists five GCSEs 4–9 with 3, 4, 4 across EL/Lit/maths; full profile needed", "next": "Consider only if interests broaden; verify subject rules", "url": "https://www.connell.ac.uk/courses"}, {"id": "college-11", "name": "Parrs Wood", "course": "Art and Geography A levels", "route": "A levels", "stage": "Exploring", "priority": "Lower priority", "deadline": "", "deadlineTime": "", "deadlineNote": "Not verified", "visited": "", "appStatus": "Not started", "entry": "Research: five 4+ incl EL/maths general; mostly 6s for A levels; old subject document, 2027 needs checking", "next": "Confirm 2027 subject requirements and future visits", "url": "https://www.pwsfc.org.uk/curriculum/entry-requirements"}, {"id": "college-12", "name": "William Hulme Grammar Sixth Form", "course": "Art/Photography/Geography; blended route conditional", "route": "A levels", "stage": "Exploring", "priority": "Lower priority", "deadline": "", "deadlineTime": "", "deadlineNote": "Not verified", "visited": "", "appStatus": "Not started", "entry": "A-level five 5+ incl English/maths; creative subjects 6. BTEC subjects unverified; do not assume creative alternative", "next": "Only revisit once full grades and actual subjects checked", "url": "https://www.whgs-academy.org/sixth-form/entry-requirements"}, {"id": "college-13", "name": "Marple Sixth Form", "course": "Art/Geography A levels", "route": "A levels", "stage": "Exploring", "priority": "Lower priority", "deadline": "", "deadlineTime": "", "deadlineNote": "Not verified", "visited": "", "appStatus": "Not started", "entry": "Five GCSEs 5+ incl English Language and maths; recheck for 2027.", "next": "Revisit if grades/course preference justify travel", "url": "https://marple.tscg.ac.uk/college-16-18/a-level-entry-requirements"}, {"id": "college-14", "name": "Didsbury Sixth Form", "course": "Art/Geography A levels", "route": "A levels", "stage": "Exploring", "priority": "Lower priority", "deadline": "", "deadlineTime": "", "deadlineNote": "Not verified", "visited": "", "appStatus": "Not started", "entry": "Research 2026 criteria six 6s incl English/maths; Art/Geography 7; 2027 criteria unresolved", "next": "Confirm 2027 entry criteria before considering", "url": "https://www.didsburyhighschool.org.uk/sixth-form-admissions/"}, {"id": "college-15", "name": "Cheadle Hulme Sixth Form", "course": "Academic route; exact fit unresolved", "route": "To investigate", "stage": "Exploring", "priority": "Unassessed eligibility", "deadline": "", "deadlineTime": "", "deadlineNote": "Not verified", "visited": "", "appStatus": "Not started", "entry": "Entry PDF not retrieved. Do NOT infer requirements from Didsbury or league-table results. Different from TSCG Cheadle College.", "next": "Obtain actual criteria before ranking eligibility", "url": "https://www.chhs.org.uk/sixth-form-admissions/"}], "events": [{"id": "visit-xaverian", "date": "2026-10-10", "time": "10:30", "title": "Xaverian open day", "kind": "Open day", "status": "Attended", "collegeId": "college-8", "url": "https://www.xaverian.ac.uk/events/open-day/"}, {"id": "tmc-portal", "date": "2026-10-12", "time": "", "title": "TMC apply portal back after maintenance (expected)", "kind": "Reminder", "status": "Expected", "tentative": true, "collegeId": "college-1", "url": "https://www.tmc.ac.uk/application-process/"}, {"id": "oct17", "date": "2026-10-17", "time": "10:00", "title": "Open day – choose one: Access Creative, Aquinas or Ashton", "kind": "Open day", "status": "Not booked – decision needed", "collegeId": "", "url": "https://www.aquinas.ac.uk/apply-now/open-events/", "links": [{"label": "Access", "url": "https://www.accesscreative.ac.uk/events/october-17th-open-day/"}, {"label": "Aquinas", "url": "https://www.aquinas.ac.uk/apply-now/open-events/"}, {"label": "Ashton", "url": "https://www.asfc.ac.uk/home/study-with-us/events/year-11-open-day-2/"}]}, {"id": "visit-manchester", "date": "2026-11-14", "time": "10:00–13:00", "title": "The Manchester College City Campus open day", "kind": "Open day", "status": "Booked", "collegeId": "college-1", "url": "https://www.tmc.ac.uk/events/november-school-leaver-open-event/"}, {"id": "access-28nov", "date": "2026-11-28", "time": "", "title": "Access Creative open day (alternative – to confirm)", "kind": "Open day", "status": "Unconfirmed", "tentative": true, "collegeId": "college-2", "url": "https://www.accesscreative.ac.uk/"}, {"id": "dl-aquinas", "date": "2026-11-30", "time": "", "title": "Aquinas application deadline", "kind": "Deadline", "status": "Confirmed", "collegeId": "college-4", "url": "https://www.aquinas.ac.uk/apply-now/"}, {"id": "school-deadline", "date": "2026-12-07", "time": "", "title": "School paper-form deadline (provisional)", "kind": "Deadline", "status": "Provisional – ask school", "tentative": true, "collegeId": "", "url": ""}, {"id": "dl-xaverian", "date": "2026-12-18", "time": "09:00", "title": "Xaverian application deadline", "kind": "Deadline", "status": "Confirmed", "collegeId": "college-8", "url": "https://www.xaverian.ac.uk/how-to-apply/"}, {"id": "dl-loreto", "date": "2027-01-08", "time": "", "title": "Loreto application deadline (incl. reference)", "kind": "Deadline", "status": "Confirmed", "collegeId": "college-6", "url": "https://www.loreto.ac.uk/apply-now"}, {"id": "gcse-results", "date": "2027-08-19", "time": "", "title": "GCSE results day (recheck with school)", "kind": "Results day", "status": "To recheck", "tentative": true, "collegeId": "", "url": "https://www.aqa.org.uk/exams-administration/results-days"}], "tasks": [{"id": "statements", "title": "Personalise the drafted personal statements (Xaverian ×3, TMC ×1)", "owner": "Afua", "due": "", "status": "In progress", "priority": "High", "notes": "Rewrite in her own words and fill every [bracket] with real examples. ~250–300 words each for Xaverian."}, {"id": "art-gcse", "title": "Confirm whether Afua takes GCSE Art or Photography", "owner": "Tony", "due": "", "status": "To do", "priority": "High", "notes": "Decides whether Xaverian asks for a portfolio."}, {"id": "xav-form", "title": "Fill in the Xaverian CEDAR form together and review before submitting", "owner": "Together", "due": "2026-12-18", "status": "To do", "priority": "High", "notes": "Cannot be edited after submission. School is asked for the reference automatically."}, {"id": "tmc-register", "title": "Register Afua on apply.tmc.ac.uk and apply for Photography L3", "owner": "Afua", "due": "", "status": "To do", "priority": "High", "notes": "Portal back from 12 Oct (expected). Afua chooses her own password. No fixed deadline, but courses fill up."}, {"id": "choose-oct17", "title": "Choose one visit for 17 October", "owner": "Together", "due": "2026-10-09", "status": "To do", "priority": "High", "notes": "Access, Aquinas and Ashton all hold open days on Sat 17 Oct. Pick one and book this week. Access may have another on 28 Nov (to confirm)."}, {"id": "email", "title": "Get my student email ready", "owner": "Afua", "due": "", "status": "Done", "priority": "Normal", "notes": "Done 11 Oct: Afua has a personal email she can keep after school. Keep it (and passwords) off this page."}, {"id": "access-book", "title": "Complete the chosen visit booking", "owner": "Tony", "due": "2026-10-12", "status": "To do", "priority": "High", "notes": "Suggested family target. If Access is selected, complete the form with Afua and check session time. Mark the event Booked only after receiving confirmation."}, {"id": "grades", "title": "Get the complete predicted-grade profile", "owner": "Together", "due": "", "status": "In progress", "priority": "Normal", "notes": "Overall expectation shared; still need the school’s prediction for each subject (Xaverian asks per subject). Keep grades off this page."}, {"id": "portfolio", "title": "Start my creative portfolio", "owner": "Afua", "due": "", "status": "To do", "priority": "Normal", "notes": "Choose photographs and artwork I am proud of, with short captions about my process. Ask each course what it expects. Keep original work in a separate private folder."}, {"id": "route", "title": "Decide how much Geography matters to me", "owner": "Afua", "due": "", "status": "To do", "priority": "Normal", "notes": "Compare a focused creative programme with separate Art, Photography and Geography subjects. Record what I like in Our plan."}, {"id": "tlevels", "title": "Find a verified T Level that fits her interests", "owner": "Tony", "due": "", "status": "To do", "priority": "High", "notes": "Current practical shortlist contains Level 3 diplomas, not verified T Levels. Use the official T Level finder; check September 2027 availability, creative content, placement arrangements and entry requirements."}, {"id": "review", "title": "Set our weekly 15-minute check-in", "owner": "Together", "due": "", "status": "To do", "priority": "Normal", "notes": "Choose a day and time in Our plan. Add the check-in to both calendars, then pick the next three actions together."}, {"id": "ticket", "title": "Have our Manchester ticket ready", "owner": "Tony", "due": "2026-11-13", "status": "To do", "priority": "Normal", "notes": "Suggested preparation target. Ticket is stored in the original local folder; bring it on a phone. One student plus two guests."}, {"id": "school", "title": "Confirm the school deadline and referee", "owner": "Tony", "due": "", "status": "To do", "priority": "High", "notes": "7 December is provisional. Ask about references, internal deadlines and how to submit applications. Do not wait until December for Aquinas."}, {"id": "apply", "title": "Prepare applications for the chosen colleges", "owner": "Together", "due": "", "status": "In progress", "priority": "Normal", "notes": "Afua owns her responses and applicant email; Tony checks deadlines and supporting information. Save the confirmation privately and update each college to Applied only after submission."}, {"id": "apprenticeships", "title": "Check suitable September 2027 apprenticeships", "owner": "Tony", "due": "", "status": "To do", "priority": "Normal", "notes": "Keep this alongside college options. Investigate Content Creator, Multi-channel Marketer and Geospatial/Surveying roles. Check minimum age, duties, start date and eligibility. No suitable vacancy or application is confirmed."}, {"id": "mocks", "title": "Review choices after mock results", "owner": "Together", "due": "", "status": "To do", "priority": "Normal", "notes": "Update the plan after mocks, but make initial applications before their deadlines."}], "activity": [{"date": "2026-10-11", "who": "Grok Bot", "text": "Drafted personal statements for Afua to personalise: Xaverian (3 questions) and The Manchester College \"why this course\"."}, {"date": "2026-10-11", "who": "Grok Bot", "text": "Researched the Xaverian (CEDAR online form, closes 18 Dec 09:00) and The Manchester College (apply.tmc.ac.uk, no fixed deadline) application processes."}, {"date": "2026-10-11", "who": "Grok Bot", "text": "Set up a weekly Sunday 17:04 briefing: upcoming deadlines, open days, overdue tasks and top three actions."}, {"date": "2026-10-11", "who": "Grok Bot", "text": "Read the family board: 15 colleges, 13 tasks, 8 events."}, {"date": "2026-10-10", "who": "Tony & Afua", "text": "Visited the Xaverian open day."}]}/*END*/;
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const MON = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const DOW = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+const pd = s => { const [y,m,d] = s.split('-').map(Number); return new Date(y, m-1, d); };
+const fmt = (s, dow) => { if(!s) return ''; const d = pd(s); return (dow ? DOW[d.getDay()]+' ' : '') + d.getDate()+' '+MON[d.getMonth()]+' '+d.getFullYear(); };
+const today = (() => { const n = new Date(); return new Date(n.getFullYear(), n.getMonth(), n.getDate()); })();
+const daysTo = s => Math.round((pd(s) - today) / 864e5);
+const cls = s => { s = (s||'').toLowerCase();
+  if (/overdue|not booked|decision|sold out|rejected/.test(s)) return 'bad';
+  if (/progress|preparing|expected|provisional|recheck|to confirm|unconfirmed/.test(s)) return 'warn';
+  if (!s || /not started|to do|not verified|undecided/.test(s)) return 'grey';
+  if (/done|attended|submitted|applied|offer|booked|confirmed|yes|^\d/.test(s)) return 'ok';
+  return ''; };
+const chip = (t, c) => t ? `<span class="chip ${c ?? cls(t)}">${esc(t)}</span>` : '';
+
+function render(D) {
+  $('#sub').textContent = `${D.intake} entry · ${D.interests} · updated ${fmt(D.updated)}`;
+  const cById = Object.fromEntries(D.colleges.map(c => [c.id, c]));
+
+  // ---- Next up: next three dated items from today (tentative ones skipped)
+  const upcoming = D.events.filter(e => e.date && daysTo(e.date) >= 0 && !e.tentative).sort((a,b) => a.date.localeCompare(b.date));
+  $('#nextList').innerHTML = upcoming.slice(0,3).map(e => { const n = daysTo(e.date);
+    return `<div class="nx"><div class="cd"><b>${n===0?'🎯':n}</b><small>${n===0?'today':n===1?'day':'days'}</small></div>
+      <div><div class="t">${esc(e.title)}</div><div class="m">${fmt(e.date,true)}${e.time?' · '+esc(e.time):''}</div>${chip(e.status)}</div></div>`; }).join('') || '<p>Nothing scheduled.</p>';
+  const active = D.colleges.filter(c => /prepar|appl|offer|submitted/i.test(c.appStatus)).length;
+  const visited = D.colleges.filter(c => c.visited).length;
+  const open = D.tasks.filter(t => !/done/i.test(t.status)).length;
+  const overdue = D.tasks.filter(t => !/done/i.test(t.status) && t.due && daysTo(t.due) < 0).length;
+  $('#stats').innerHTML = [[D.colleges.length,'colleges'],[visited,'visited'],[active,'applications under way'],[open+(overdue?` <small style="color:var(--bad)">(${overdue} overdue)</small>`:''),'open tasks']]
+    .map(([n,l]) => `<div class="stat"><b>${n}</b><span>${l}</span></div>`).join('');
+
+  // ---- Colleges
+  const order = c => (/prepar|appl|offer/i.test(c.appStatus) ? 0 : 1) * 100 + (isNaN(+c.priority) ? 50 : +c.priority);
+  const cols = [...D.colleges].sort((a,b) => order(a) - order(b));
+  const dl = c => c.deadline ? fmt(c.deadline) + (c.deadlineTime ? ' ' + c.deadlineTime : '') : '—';
+  const filters = {All: () => true, 'In progress': c => /prepar|appl|offer/i.test(c.appStatus), 'Has deadline': c => !!c.deadline, 'A levels': c => /A level/i.test(c.route), 'Diplomas': c => /diploma/i.test(c.route)};
+  let cf = 'All';
+  const drawColleges = () => {
+    const list = cols.filter(filters[cf]);
+    const hot = c => /prepar|appl|offer/i.test(c.appStatus) ? 'hot' : '';
+    $('#ccards').innerHTML = list.map(c => `<div class="cc ${hot(c)}"><h3>${esc(c.name)}</h3><div class="course">${esc(c.course)}</div>
+      <dl class="kv"><dt>Route</dt><dd>${esc(c.route)}</dd><dt>Stage</dt><dd>${chip(c.stage,'')}</dd><dt>Priority</dt><dd>${esc(c.priority)}</dd>
+      <dt>Deadline</dt><dd>${esc(dl(c))} <span class="sub" style="color:var(--muted);font-size:.78rem">${esc(c.deadlineNote)}</span></dd>
+      <dt>Visited</dt><dd>${c.visited ? chip('✓ '+c.visited,'ok') : chip('Not yet','grey')}</dd><dt>Application</dt><dd>${chip(c.appStatus)}</dd>
+      ${c.applyVia?`<dt>Apply via</dt><dd>${esc(c.applyVia)}</dd>`:''}<dt>Link</dt><dd><a href="${esc(c.url)}" target="_blank" rel="noopener">College site ↗</a></dd></dl>
+      ${c.next?`<div class="nexttxt"><b>Next:</b> ${esc(c.next)}</div>`:''}</div>`).join('');
+    $('#ctable tbody').innerHTML = list.map(c => `<tr class="${hot(c)}"><td><b>${esc(c.name)}</b><div class="sub">${esc(c.course)}</div>${c.next?`<div class="sub">➜ ${esc(c.next)}</div>`:''}</td>
+      <td>${esc(c.route)}</td><td>${chip(c.stage,'')}</td><td>${esc(c.priority)}</td>
+      <td>${esc(dl(c))}<div class="sub">${esc(c.deadlineNote)}</div></td>
+      <td>${c.visited ? chip('✓ '+c.visited,'ok') : '<span class="sub">—</span>'}</td><td>${chip(c.appStatus)}${c.applyVia?`<div class="sub">${esc(c.applyVia)}</div>`:''}</td>
+      <td><a href="${esc(c.url)}" target="_blank" rel="noopener">Open ↗</a></td></tr>`).join('');
+    $('#cfilters').innerHTML = Object.keys(filters).map(k => `<button class="${k===cf?'on':''}" data-k="${k}">${k}</button>`).join('');
+  };
+  $('#cfilters').onclick = e => { if (e.target.dataset.k) { cf = e.target.dataset.k; drawColleges(); } };
+  drawColleges();
+
+  // ---- Timeline
+  $('#timeline').innerHTML = [...D.events].sort((a,b) => a.date.localeCompare(b.date)).map(e => { const n = daysTo(e.date);
+    const when = n < 0 ? 'past' : n === 0 ? 'today' : '';
+    const rel = n < 0 ? '' : n === 0 ? ' · today' : ` · in ${n} day${n===1?'':'s'}`;
+    const col = cById[e.collegeId];
+    const links = e.links ? e.links.map(l => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)} ↗</a>`).join('') : (e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">Details ↗</a>` : '');
+    return `<li class="${when} ${/deadline/i.test(e.kind)?'dl':''}"><div class="d">${fmt(e.date,true)}${e.time?' · '+esc(e.time):''}${rel}</div>
+      <div class="t">${esc(e.title)}</div><div>${chip(e.kind,'')} ${chip(e.status)}</div><div class="links">${links}</div></li>`; }).join('');
+
+  // ---- Tasks
+  const rank = t => /done/i.test(t.status) ? 3 : /progress/i.test(t.status) ? 0 : (t.priority==='High' ? 1 : 2);
+  const tf = {All: () => true, Tony: t => /tony|together/i.test(t.owner), Afua: t => /afua|together/i.test(t.owner), Open: t => !/done/i.test(t.status), Done: t => /done/i.test(t.status)};
+  let tsel = 'Open';
+  const drawTasks = () => {
+    $('#taskList').innerHTML = [...D.tasks].filter(tf[tsel]).sort((a,b) => rank(a)-rank(b) || (a.due||'9').localeCompare(b.due||'9')).map(t => {
+      const st = /done/i.test(t.status) ? 'done' : /progress/i.test(t.status) ? 'prog' : '';
+      const od = !st.includes('done') && t.due && daysTo(t.due) < 0;
+      return `<div class="tk ${st}"><div class="ic"></div><div><div class="tt">${esc(t.title)}</div>
+        <div class="meta">${chip('👤 '+t.owner,'')} ${chip(t.status)} ${t.priority==='High'?chip('High priority','warn'):''} ${t.due?chip((od?'Overdue · ':'Due ')+fmt(t.due), od?'bad':'grey'):''}</div>
+        ${t.notes?`<div class="n">${esc(t.notes)}</div>`:''}</div></div>`; }).join('') || '<p>No tasks here.</p>';
+    $('#tfilters').innerHTML = Object.keys(tf).map(k => `<button class="${k===tsel?'on':''}" data-k="${k}">${k}</button>`).join('');
+  };
+  $('#tfilters').onclick = e => { if (e.target.dataset.k) { tsel = e.target.dataset.k; drawTasks(); } };
+  drawTasks();
+
+  // ---- Activity log (newest first; stable within a day = order in file)
+  $('#logList').innerHTML = D.activity.map((a,i) => [a,i]).sort((x,y) => y[0].date.localeCompare(x[0].date) || x[1]-y[1])
+    .map(([a]) => `<li><div class="d">${fmt(a.date)}</div><div><div class="who">${esc(a.who||'')}</div>${esc(a.text)}</div></li>`).join('');
+
+  $('#foot').textContent = `Family tracker · ${D.intake} intake · Personal details are deliberately kept off this page.`;
+}
+
+if (EMBEDDED) render(EMBEDDED);
+else fetch('data.json', {cache: 'no-store'}).then(r => r.json()).then(render)
+  .catch(() => { document.querySelector('main').innerHTML = '<section>Could not load data.json. Run <code>python3 build.py</code> to embed it.</section>'; });
+</script>
+</body>
+</html>

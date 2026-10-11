@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="googlebot" content="noindex,nofollow">
+<meta name="referrer" content="no-referrer">
+<title>Afua's College Journey</title>
+<style>
+:root{--bg:#fbf8f4;--card:#fff;--ink:#23212b;--muted:#6d6878;--line:#ece6dd;--accent:#7b5cff;--accent2:#ff8a5c;--ok:#1f9d6b;--warn:#d98a00;--bad:#d64545;--chip:#f3effa;--r:16px}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink)}
+a{color:var(--accent)}
+header{background:linear-gradient(135deg,#7b5cff,#ff8a5c);color:#fff;padding:28px 18px 64px}
+header h1{margin:0;font-size:1.7rem;letter-spacing:-.01em}
+header p{margin:4px 0 0;opacity:.92;font-size:.95rem}
+main{max-width:1100px;margin:-44px auto 40px;padding:0 14px}
+section{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:18px;margin-bottom:16px;box-shadow:0 2px 10px rgba(40,20,80,.04)}
+h2{margin:0 0 12px;font-size:1.15rem;display:flex;align-items:center;gap:8px}
+.nav{display:flex;gap:6px;overflow-x:auto;padding:0 0 12px;margin:0 0 4px;scrollbar-width:none}
+.nav a{flex:none;background:#fff;border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:.85rem;text-decoration:none;color:var(--ink)}
+.next{display:grid;gap:10px}
+.nx{display:flex;gap:12px;align-items:center;border-radius:12px;padding:12px;background:var(--chip)}
+.cd{flex:none;width:68px;text-align:center;border-radius:10px;background:#fff;padding:6px 0;border:1px solid var(--line)}
+.cd b{display:block;font-size:1.5rem;line-height:1.1;color:var(--accent)}
+.cd small{font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.nx .t{font-weight:600}
+.nx .m{color:var(--muted);font-size:.85rem}
+.chip{display:inline-block;font-size:.75rem;padding:2px 8px;border-radius:999px;background:var(--chip);color:#4b3aa8;white-space:nowrap}
+.chip.ok{background:#e3f6ee;color:var(--ok)}.chip.warn{background:#fff3dc;color:#9a6300}.chip.bad{background:#fde7e7;color:var(--bad)}.chip.grey{background:#f0eeec;color:var(--muted)}
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:12px}
+.stat{border:1px solid var(--line);border-radius:12px;padding:10px;text-align:center}
+.stat b{display:block;font-size:1.3rem}.stat span{font-size:.8rem;color:var(--muted)}
+.filters{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.filters button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 11px;font:inherit;font-size:.82rem;cursor:pointer}
+.filters button.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* college cards (mobile) -> table (desktop) */
+.cards{display:grid;gap:10px}
+.cc{border:1px solid var(--line);border-radius:12px;padding:12px}
+.cc.hot{border-color:#cbbdff;background:#faf8ff}
+.cc h3{margin:0 0 2px;font-size:1rem}
+.cc .course{color:var(--muted);font-size:.88rem;margin-bottom:8px}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:3px 10px;font-size:.85rem}
+.kv dt{color:var(--muted)}.kv dd{margin:0}
+.cc .nexttxt{font-size:.83rem;margin-top:8px;padding-top:8px;border-top:1px dashed var(--line)}
+table{display:none;width:100%;border-collapse:collapse;font-size:.86rem}
+th{text-align:left;font-weight:600;color:var(--muted);font-size:.75rem;text-transform:uppercase;letter-spacing:.04em;padding:8px;border-bottom:2px solid var(--line)}
+td{padding:9px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+tr.hot td{background:#faf8ff}
+td .sub{color:var(--muted);font-size:.8rem}
+/* timeline */
+.tl{list-style:none;margin:0;padding:0 0 0 18px;border-left:3px solid var(--line)}
+.tl li{position:relative;padding:0 0 16px 12px}
+.tl li:before{content:"";position:absolute;left:-27px;top:5px;width:13px;height:13px;border-radius:50%;background:#fff;border:3px solid var(--accent)}
+.tl li.dl:before{border-color:var(--accent2)}
+.tl li.past{opacity:.55}.tl li.past:before{background:var(--line);border-color:#bbb}
+.tl li.today:before{background:var(--accent)}
+.tl .d{font-size:.8rem;color:var(--muted);font-weight:600}
+.tl .t{font-weight:600}
+.tl .links a{margin-right:8px;font-size:.85rem}
+/* tasks */
+.tasks{display:grid;gap:8px}
+.tk{display:grid;grid-template-columns:22px 1fr;gap:10px;border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.tk .ic{width:20px;height:20px;border-radius:6px;border:2px solid #cfc7dc;margin-top:2px}
+.tk.done .ic{background:var(--ok);border-color:var(--ok)}
+.tk.done .ic:after{content:"✓";color:#fff;font-size:.8rem;display:block;text-align:center;line-height:16px}
+.tk.prog .ic{border-color:var(--warn);background:linear-gradient(90deg,var(--warn) 50%,#fff 50%)}
+.tk.done .tt{text-decoration:line-through;color:var(--muted)}
+.tk .tt{font-weight:600}
+.tk .meta{display:flex;gap:6px;flex-wrap:wrap;margin:4px 0}
+.tk .n{font-size:.83rem;color:var(--muted)}
+/* activity */
+.log{list-style:none;margin:0;padding:0}
+.log li{display:grid;grid-template-columns:auto 1fr;gap:10px;padding:10px 0;border-bottom:1px solid var(--line)}
+.log li:last-child{border:0}
+.log .d{font-size:.78rem;color:var(--muted);white-space:nowrap;padding-top:2px;min-width:62px}
+.log .who{font-size:.75rem;color:var(--accent);font-weight:600}
+footer{text-align:center;color:var(--muted);font-size:.8rem;padding:10px 16px 30px}
+@media(min-width:760px){
+  header{padding:36px 28px 72px}header h1{font-size:2.1rem}
+  .next{grid-template-columns:repeat(3,1fr)}
+  .stats{grid-template-columns:repeat(4,1fr)}
+  .cards{display:none}table{display:table}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .grid2 section{margin-bottom:16px}
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Afua's College Journey 🎨📷🌍</h1>
+  <p id="sub"></p>
+</header>
+<main>
+  <nav class="nav">
+    <a href="#next">Next up</a><a href="#colleges">Colleges</a><a href="#dates">Key dates</a><a href="#tasks">Tasks</a><a href="#log">Activity log</a>
+  </nav>
+  <section id="next"><h2>⏰ Next up</h2><div class="next" id="nextList"></div><div class="stats" id="stats"></div></section>
+  <section id="colleges"><h2>🏫 Colleges</h2>
+    <div class="filters" id="cfilters"></div>
+    <div class="cards" id="ccards"></div>
+    <table id="ctable"><thead><tr><th>College</th><th>Route</th><th>Stage</th><th>Priority</th><th>Deadline</th><th>Visited</th><th>Application</th><th>Link</th></tr></thead><tbody></tbody></table>
+  </section>
+  <div class="grid2">
+    <section id="dates"><h2>🗓️ Key dates</h2><ul class="tl" id="timeline"></ul></section>
+    <div>
+      <section id="tasks"><h2>✅ Tasks</h2><div class="filters" id="tfilters"></div><div class="tasks" id="taskList"></div></section>
+    </div>
+  </div>
+  <section id="log"><h2>📝 Activity log</h2><ul class="log" id="logList"></ul></section>
+</main>
+<footer id="foot"></footer>
+<script>
+const EMBEDDED = /*DATA*/null/*END*/;
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const MON = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const DOW = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+const pd = s => { const [y,m,d] = s.split('-').map(Number); return new Date(y, m-1, d); };
+const fmt = (s, dow) => { if(!s) return ''; const d = pd(s); return (dow ? DOW[d.getDay()]+' ' : '') + d.getDate()+' '+MON[d.getMonth()]+' '+d.getFullYear(); };
+const today = (() => { const n = new Date(); return new Date(n.getFullYear(), n.getMonth(), n.getDate()); })();
+const daysTo = s => Math.round((pd(s) - today) / 864e5);
+const cls = s => { s = (s||'').toLowerCase();
+  if (/overdue|not booked|decision|sold out|rejected/.test(s)) return 'bad';
+  if (/progress|preparing|expected|provisional|recheck|to confirm|unconfirmed/.test(s)) return 'warn';
+  if (!s || /not started|to do|not verified|undecided/.test(s)) return 'grey';
+  if (/done|attended|submitted|applied|offer|booked|confirmed|yes|^\d/.test(s)) return 'ok';
+  return ''; };
+const chip = (t, c) => t ? `<span class="chip ${c ?? cls(t)}">${esc(t)}</span>` : '';
+
+function render(D) {
+  $('#sub').textContent = `${D.intake} entry · ${D.interests} · updated ${fmt(D.updated)}`;
+  const cById = Object.fromEntries(D.colleges.map(c => [c.id, c]));
+
+  // ---- Next up: next three dated items from today (tentative ones skipped)
+  const upcoming = D.events.filter(e => e.date && daysTo(e.date) >= 0 && !e.tentative).sort((a,b) => a.date.localeCompare(b.date));
+  $('#nextList').innerHTML = upcoming.slice(0,3).map(e => { const n = daysTo(e.date);
+    return `<div class="nx"><div class="cd"><b>${n===0?'🎯':n}</b><small>${n===0?'today':n===1?'day':'days'}</small></div>
+      <div><div class="t">${esc(e.title)}</div><div class="m">${fmt(e.date,true)}${e.time?' · '+esc(e.time):''}</div>${chip(e.status)}</div></div>`; }).join('') || '<p>Nothing scheduled.</p>';
+  const active = D.colleges.filter(c => /prepar|appl|offer|submitted/i.test(c.appStatus)).length;
+  const visited = D.colleges.filter(c => c.visited).length;
+  const open = D.tasks.filter(t => !/done/i.test(t.status)).length;
+  const overdue = D.tasks.filter(t => !/done/i.test(t.status) && t.due && daysTo(t.due) < 0).length;
+  $('#stats').innerHTML = [[D.colleges.length,'colleges'],[visited,'visited'],[active,'applications under way'],[open+(overdue?` <small style="color:var(--bad)">(${overdue} overdue)</small>`:''),'open tasks']]
+    .map(([n,l]) => `<div class="stat"><b>${n}</b><span>${l}</span></div>`).join('');
+
+  // ---- Colleges
+  const order = c => (/prepar|appl|offer/i.test(c.appStatus) ? 0 : 1) * 100 + (isNaN(+c.priority) ? 50 : +c.priority);
+  const cols = [...D.colleges].sort((a,b) => order(a) - order(b));
+  const dl = c => c.deadline ? fmt(c.deadline) + (c.deadlineTime ? ' ' + c.deadlineTime : '') : '—';
+  const filters = {All: () => true, 'In progress': c => /prepar|appl|offer/i.test(c.appStatus), 'Has deadline': c => !!c.deadline, 'A levels': c => /A level/i.test(c.route), 'Diplomas': c => /diploma/i.test(c.route)};
+  let cf = 'All';
+  const drawColleges = () => {
+    const list = cols.filter(filters[cf]);
+    const hot = c => /prepar|appl|offer/i.test(c.appStatus) ? 'hot' : '';
+    $('#ccards').innerHTML = list.map(c => `<div class="cc ${hot(c)}"><h3>${esc(c.name)}</h3><div class="course">${esc(c.course)}</div>
+      <dl class="kv"><dt>Route</dt><dd>${esc(c.route)}</dd><dt>Stage</dt><dd>${chip(c.stage,'')}</dd><dt>Priority</dt><dd>${esc(c.priority)}</dd>
+      <dt>Deadline</dt><dd>${esc(dl(c))} <span class="sub" style="color:var(--muted);font-size:.78rem">${esc(c.deadlineNote)}</span></dd>
+      <dt>Visited</dt><dd>${c.visited ? chip('✓ '+c.visited,'ok') : chip('Not yet','grey')}</dd><dt>Application</dt><dd>${chip(c.appStatus)}</dd>
+      ${c.applyVia?`<dt>Apply via</dt><dd>${esc(c.applyVia)}</dd>`:''}<dt>Link</dt><dd><a href="${esc(c.url)}" target="_blank" rel="noopener">College site ↗</a></dd></dl>
+      ${c.next?`<div class="nexttxt"><b>Next:</b> ${esc(c.next)}</div>`:''}</div>`).join('');
+    $('#ctable tbody').innerHTML = list.map(c => `<tr class="${hot(c)}"><td><b>${esc(c.name)}</b><div class="sub">${esc(c.course)}</div>${c.next?`<div class="sub">➜ ${esc(c.next)}</div>`:''}</td>
+      <td>${esc(c.route)}</td><td>${chip(c.stage,'')}</td><td>${esc(c.priority)}</td>
+      <td>${esc(dl(c))}<div class="sub">${esc(c.deadlineNote)}</div></td>
+      <td>${c.visited ? chip('✓ '+c.visited,'ok') : '<span class="sub">—</span>'}</td><td>${chip(c.appStatus)}${c.applyVia?`<div class="sub">${esc(c.applyVia)}</div>`:''}</td>
+      <td><a href="${esc(c.url)}" target="_blank" rel="noopener">Open ↗</a></td></tr>`).join('');
+    $('#cfilters').innerHTML = Object.keys(filters).map(k => `<button class="${k===cf?'on':''}" data-k="${k}">${k}</button>`).join('');
+  };
+  $('#cfilters').onclick = e => { if (e.target.dataset.k) { cf = e.target.dataset.k; drawColleges(); } };
+  drawColleges();
+
+  // ---- Timeline
+  $('#timeline').innerHTML = [...D.events].sort((a,b) => a.date.localeCompare(b.date)).map(e => { const n = daysTo(e.date);
+    const when = n < 0 ? 'past' : n === 0 ? 'today' : '';
+    const rel = n < 0 ? '' : n === 0 ? ' · today' : ` · in ${n} day${n===1?'':'s'}`;
+    const col = cById[e.collegeId];
+    const links = e.links ? e.links.map(l => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)} ↗</a>`).join('') : (e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">Details ↗</a>` : '');
+    return `<li class="${when} ${/deadline/i.test(e.kind)?'dl':''}"><div class="d">${fmt(e.date,true)}${e.time?' · '+esc(e.time):''}${rel}</div>
+      <div class="t">${esc(e.title)}</div><div>${chip(e.kind,'')} ${chip(e.status)}</div><div class="links">${links}</div></li>`; }).join('');
+
+  // ---- Tasks
+  const rank = t => /done/i.test(t.status) ? 3 : /progress/i.test(t.status) ? 0 : (t.priority==='High' ? 1 : 2);
+  const tf = {All: () => true, Tony: t => /tony|together/i.test(t.owner), Afua: t => /afua|together/i.test(t.owner), Open: t => !/done/i.test(t.status), Done: t => /done/i.test(t.status)};
+  let tsel = 'Open';
+  const drawTasks = () => {
+    $('#taskList').innerHTML = [...D.tasks].filter(tf[tsel]).sort((a,b) => rank(a)-rank(b) || (a.due||'9').localeCompare(b.due||'9')).map(t => {
+      const st = /done/i.test(t.status) ? 'done' : /progress/i.test(t.status) ? 'prog' : '';
+      const od = !st.includes('done') && t.due && daysTo(t.due) < 0;
+      return `<div class="tk ${st}"><div class="ic"></div><div><div class="tt">${esc(t.title)}</div>
+        <div class="meta">${chip('👤 '+t.owner,'')} ${chip(t.status)} ${t.priority==='High'?chip('High priority','warn'):''} ${t.due?chip((od?'Overdue · ':'Due ')+fmt(t.due), od?'bad':'grey'):''}</div>
+        ${t.notes?`<div class="n">${esc(t.notes)}</div>`:''}</div></div>`; }).join('') || '<p>No tasks here.</p>';
+    $('#tfilters').innerHTML = Object.keys(tf).map(k => `<button class="${k===tsel?'on':''}" data-k="${k}">${k}</button>`).join('');
+  };
+  $('#tfilters').onclick = e => { if (e.target.dataset.k) { tsel = e.target.dataset.k; drawTasks(); } };
+  drawTasks();
+
+  // ---- Activity log (newest first; stable within a day = order in file)
+  $('#logList').innerHTML = D.activity.map((a,i) => [a,i]).sort((x,y) => y[0].date.localeCompare(x[0].date) || x[1]-y[1])
+    .map(([a]) => `<li><div class="d">${fmt(a.date)}</div><div><div class="who">${esc(a.who||'')}</div>${esc(a.text)}</div></li>`).join('');
+
+  $('#foot').textContent = `Family tracker · ${D.intake} intake · Personal details are deliberately kept off this page.`;
+}
+
+if (EMBEDDED) render(EMBEDDED);
+else fetch('data.json', {cache: 'no-store'}).then(r => r.json()).then(render)
+  .catch(() => { document.querySelector('main').innerHTML = '<section>Could not load data.json. Run <code>python3 build.py</code> to embed it.</section>'; });
+</script>
+</body>
+</html>
