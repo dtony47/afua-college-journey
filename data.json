@@ -2,7 +2,7 @@
   "title": "Afua's College Journey",
   "intake": "September 2027",
   "interests": "Art \u00b7 Photography \u00b7 Geography",
-  "updated": "2026-10-11",
+  "updated": "2026-10-18",
   "colleges": [
     {
       "id": "college-1",
@@ -263,12 +263,14 @@
       "id": "tmc-portal",
       "date": "2026-10-12",
       "time": "",
-      "title": "TMC apply portal back after maintenance (expected)",
+      "title": "TMC apply portal back online",
       "kind": "Reminder",
-      "status": "Expected",
-      "tentative": true,
+      "status": "Confirmed live",
+      "tentative": false,
       "collegeId": "college-1",
-      "url": "https://www.tmc.ac.uk/application-process/"
+      "url": "https://apply.tmc.ac.uk/",
+      "verified": true,
+      "notes": "Checked 18 Oct 2026: portal is up and accepting new applicant accounts."
     },
     {
       "id": "oct17",
@@ -276,7 +278,7 @@
       "time": "10:00\u201313:00 (Aquinas & Ashton); Access register online",
       "title": "Open day \u2013 choose one: Access Creative, Aquinas or Ashton",
       "kind": "Open day",
-      "status": "Not booked \u2013 decision needed",
+      "status": "Date passed \u2013 no visit recorded",
       "collegeId": "",
       "url": "https://www.aquinas.ac.uk/apply-now/open-events/",
       "links": [
@@ -294,7 +296,7 @@
         }
       ],
       "verified": true,
-      "notes": "Checked 11 Oct 2026: all three confirmed for Sat 17 Oct. Aquinas & Ashton 10am\u20131pm; Ashton is ticket-only (1 per student). Access Creative open day confirmed \u2013 register online (Manchester: Games/Media Hulme St, Music Oxford St)."
+      "notes": "Checked 11 Oct 2026: all three confirmed for Sat 17 Oct. Aquinas & Ashton 10am\u20131pm; Ashton is ticket-only (1 per student). Access Creative open day confirmed \u2013 register online (Manchester: Games/Media Hulme St, Music Oxford St). 18 Oct 2026: no booking or visit was recorded; Access Creative 28 Nov is the next confirmed alternative."
     },
     {
       "id": "visit-manchester",
@@ -304,7 +306,9 @@
       "kind": "Open day",
       "status": "Booked",
       "collegeId": "college-1",
-      "url": "https://www.tmc.ac.uk/events/november-school-leaver-open-event/"
+      "url": "https://www.tmc.ac.uk/events/november-school-leaver-open-event/",
+      "verified": true,
+      "notes": "Rechecked 18 Oct 2026 on the college website: Sat 14 Nov, 10am\u20131pm (arrive 10am\u201312pm), City Campus."
     },
     {
       "id": "access-28nov",
@@ -407,7 +411,7 @@
       "due": "",
       "status": "To do",
       "priority": "High",
-      "notes": "Portal back from 12 Oct (expected). Afua chooses her own password. No fixed deadline, but courses fill up."
+      "notes": "Portal confirmed live on 18 Oct 2026, so this can start now. Afua chooses her own password. No fixed deadline, but courses fill up."
     },
     {
       "id": "choose-oct17",
@@ -416,7 +420,7 @@
       "due": "2026-10-09",
       "status": "To do",
       "priority": "High",
-      "notes": "OVERDUE (was due 9 Oct). All three confirmed 11 Oct 2026: Access Creative (register online), Aquinas 10am\u20131pm, Ashton 10am\u20131pm ticket-only. Pick one and book by Mon 12 Oct. Access also has 28 Nov as backup."
+      "notes": "17 Oct has passed with no visit recorded. Next confirmed option: Access Creative open day Sat 28 Nov (register online). Update this if a visit did happen."
     },
     {
       "id": "email",
@@ -528,6 +532,11 @@
     }
   ],
   "activity": [
+    {
+      "date": "2026-10-18",
+      "who": "Grok Bot",
+      "text": "Weekly briefing: confirmed the TMC apply portal is back online and rechecked the 14 Nov TMC open day (10am\u20131pm, City Campus); marked the 17 Oct open day as passed with no visit recorded."
+    },
     {
       "date": "2026-10-11",
       "who": "Grok Bot",
