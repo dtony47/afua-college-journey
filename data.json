@@ -2,7 +2,7 @@
  "title": "Afua's College Journey",
  "intake": "September 2027",
  "interests": "Art · Photography · Geography",
- "updated": "2026-11-01",
+ "updated": "2026-11-08",
  "colleges": [
   {
    "id": "college-1",
@@ -34,7 +34,7 @@
    "visited": "",
    "appStatus": "Not started",
    "entry": "Four GCSEs 4–9 incl English; no Geography in this route.",
-   "next": "Complete student details or choose 28 Nov if academic visit 17 Oct",
+   "next": "Register online for the Sat 28 Nov open day (11am–2pm) if you still want to visit",
    "url": "https://www.accesscreative.ac.uk/events/october-17th-open-day/"
   },
   {
@@ -66,7 +66,7 @@
    "visited": "",
    "appStatus": "Not started",
    "entry": "Six GCSEs 4 incl English Language and maths. Art 4 required; Geography needs 5 in EL/maths/science. Table labelled 2026.",
-   "next": "Confirm 2027 criteria and decide between 17 Oct alternatives",
+   "next": "Decide whether to apply — closes 30 Nov 2026; later applications go on a reserve list",
    "url": "https://www.aquinas.ac.uk/apply-now/"
   },
   {
@@ -157,13 +157,13 @@
    "route": "To investigate",
    "stage": "Exploring",
    "priority": "Lower priority",
-   "deadline": "",
+   "deadline": "2027-01-15",
    "deadlineTime": "",
-   "deadlineNote": "Not verified",
+   "deadlineNote": "Confirmed · priority 9 Nov 2026 (public page); final 15 Jan 2027",
    "visited": "",
    "appStatus": "Not started",
    "entry": "Research lists five GCSEs 4–9 with 3, 4, 4 across EL/Lit/maths; full profile needed",
-   "next": "Consider only if interests broaden; verify subject rules",
+   "next": "Lower-priority option and not a direct Art/Photography fit; public page lists priority deadline 9 Nov 2026",
    "url": "https://www.connell.ac.uk/courses"
   },
   {
@@ -299,6 +299,18 @@
    "notes": "Checked 11 Oct 2026: all three confirmed for Sat 17 Oct. Aquinas & Ashton 10am–1pm; Ashton is ticket-only (1 per student). Access Creative open day confirmed – register online (Manchester: Games/Media Hulme St, Music Oxford St). 18 Oct 2026: no booking or visit was recorded; Access Creative 28 Nov is the next confirmed alternative."
   },
   {
+   "id": "dl-connell-priority",
+   "date": "2026-11-09",
+   "time": "",
+   "title": "Connell Co-op priority application deadline",
+   "kind": "Deadline",
+   "status": "Confirmed – lower-priority option",
+   "collegeId": "college-10",
+   "url": "https://www.connell.ac.uk/apply",
+   "verified": true,
+   "notes": "Checked 8 Nov 2026 on https://www.connell.ac.uk/apply: priority deadline Monday 9 November 2026 may lead to a pre-Christmas interview. Final deadline Friday 15 January 2027. The college admissions policy document lists the priority date as Monday 16 November 2026; the public How to Apply page says 9 November."
+  },
+  {
    "id": "visit-manchester",
    "date": "2026-11-14",
    "time": "10:00–13:00",
@@ -308,12 +320,12 @@
    "collegeId": "college-1",
    "url": "https://www.tmc.ac.uk/events/november-school-leaver-open-event/",
    "verified": true,
-   "notes": "Rechecked 1 Nov 2026 on the college website: Sat 14 Nov, 10am–1pm, City Campus; arrive between 10am and 12:30pm."
+   "notes": "Rechecked 8 Nov 2026 on the college website: Sat 14 Nov, 10am–1pm, City Campus; arrive between 10am and 12:30pm. Unchanged since 1 Nov."
   },
   {
    "id": "access-28nov",
    "date": "2026-11-28",
-   "time": "",
+   "time": "11:00–14:00",
    "title": "Access Creative open day",
    "kind": "Open day",
    "status": "Confirmed – not booked",
@@ -321,7 +333,7 @@
    "collegeId": "college-2",
    "url": "https://www.accesscreative.ac.uk/events/open-day-28th-november-2026/",
    "verified": true,
-   "notes": "Checked 11 Oct 2026: open day confirmed for Sat 28 Nov 2026 for Sept 2027 courses. Register online. Rechecked 25 Oct 2026: event page still live."
+   "notes": "Rechecked 8 Nov 2026: open day confirmed for Sat 28 Nov 2026, 11am–2pm, for September 2027 courses. Register online. (The page also still shows leftover June 2026 wording; the November-specific text is 11am–2pm.)"
   },
   {
    "id": "dl-aquinas",
@@ -333,7 +345,7 @@
    "collegeId": "college-4",
    "url": "https://www.aquinas.ac.uk/apply-now/",
    "verified": true,
-   "notes": "Rechecked 1 Nov 2026 on the Aquinas website: closing date for September 2027 entry is 30 November 2026; later applications go on a reserve list."
+   "notes": "Rechecked 8 Nov 2026 on the Aquinas website: closing date for September 2027 entry is 30 November 2026; later applications go on a reserve list with no guarantee of further consideration."
   },
   {
    "id": "school-deadline",
@@ -344,7 +356,8 @@
    "status": "Provisional – ask school",
    "tentative": true,
    "collegeId": "",
-   "url": ""
+   "url": "",
+   "notes": "Still provisional. Checked 8 Nov 2026: Dean Trust Ardwick’s public site does not list a 7 December college-application paper deadline (the school has no sixth form). Ask school about references, internal deadlines and how to submit applications."
   },
   {
    "id": "dl-xaverian",
@@ -354,7 +367,9 @@
    "kind": "Deadline",
    "status": "Confirmed",
    "collegeId": "college-8",
-   "url": "https://www.xaverian.ac.uk/how-to-apply/"
+   "url": "https://www.xaverian.ac.uk/how-to-apply/",
+   "verified": true,
+   "notes": "Rechecked 8 Nov 2026 on https://www.xaverian.ac.uk/how-to-apply/: applications close on 18 December 2026 at 9am."
   },
   {
    "id": "dl-loreto",
@@ -365,6 +380,18 @@
    "status": "Confirmed",
    "collegeId": "college-6",
    "url": "https://www.loreto.ac.uk/apply-now"
+  },
+  {
+   "id": "dl-connell-final",
+   "date": "2027-01-15",
+   "time": "",
+   "title": "Connell Co-op final application deadline",
+   "kind": "Deadline",
+   "status": "Confirmed – lower-priority option",
+   "collegeId": "college-10",
+   "url": "https://www.connell.ac.uk/apply",
+   "verified": true,
+   "notes": "Checked 8 Nov 2026 on https://www.connell.ac.uk/apply: final application deadline Friday 15 January 2027."
   },
   {
    "id": "gcse-results",
@@ -422,7 +449,7 @@
    "due": "2026-10-09",
    "status": "To do",
    "priority": "High",
-   "notes": "17 Oct has passed with no visit recorded. Next confirmed option: Access Creative open day Sat 28 Nov (register online). Update this if a visit did happen."
+   "notes": "17 Oct has passed with no visit recorded. Next confirmed option: Access Creative open day Sat 28 Nov, 11am–2pm (register online). Update this if a visit did happen."
   },
   {
    "id": "email",
@@ -440,7 +467,7 @@
    "due": "2026-10-12",
    "status": "To do",
    "priority": "High",
-   "notes": "Suggested family target. If Access is selected, complete the form with Afua and check session time. Mark the event Booked only after receiving confirmation."
+   "notes": "17 Oct passed with no visit recorded. Next confirmed option: Access Creative open day Sat 28 Nov, 11am–2pm (register online). Mark Booked only after receiving confirmation."
   },
   {
    "id": "grades",
@@ -534,6 +561,11 @@
   }
  ],
  "activity": [
+  {
+   "date": "2026-11-08",
+   "who": "Grok Bot",
+   "text": "Weekly briefing: rechecked the TMC 14 Nov open day, Aquinas 30 Nov closing date and Xaverian 18 Dec 9am deadline (all unchanged). Access Creative 28 Nov open day now lists 11am–2pm. Confirmed Connell Co-op’s public dates (priority 9 Nov 2026; final 15 Jan 2027). School 7 Dec paper deadline still unverified. No new bookings or applications recorded this week."
+  },
   {
    "date": "2026-11-01",
    "who": "Grok Bot",
